@@ -1,0 +1,16 @@
+Obs.: retirar o arquivo do projeto geral após subir em produção
+
+Documentação inicial.
+
+Usuário ====> Abrir chamado via Whatsapp ===> Comunicar Osticket ===> Comunicar com o Whatsapp (repeat process)
+
+**API'S necessárias**
+OSTICKET: 
+-- ip: 10.0.103.51 (local)
+-- Key: A1D67690F612FCE67F2D7040997B20E9
+
+**ENDPOINTS API OSTICKET**
+-- post: /api/tickets.json (cria)
+-- get: /api/tickets/{ticket_id}.json (visualiza)
+-- get: /api/tickets.json (lista)
+
